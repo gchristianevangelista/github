@@ -1,0 +1,61 @@
+.main-body{
+	display: flex;
+	margin-top: 120px;
+}
+.text-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 620px;
+	margin-left: 160px;
+}
+.text-body h1{
+	font-size: 72px;
+	line-height: 76px;
+	font-weight: bold;
+	letter-spacing: 0;
+    color: white;
+	margin-bottom: 0;
+}
+.text-body h4{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0;
+	color: #8193B2;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+.input-body {
+	display: flex;
+}
+.input-body input{
+	border-radius: 5px;
+	border: none;
+	background-color: #FFF;
+	width: 320px;
+	margin-right: 10px;
+	padding-left: 20px;
+	outline-color: blue;
+}
+input::placeholder{
+	font-size: 16px;
+}
+.sign-up-body{
+	background-color: #33B558;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 195px;
+    color: white;
+    font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+img{
+	margin-left: 610px;
+	margin-top: -90px;
+	height: 900px;
+}

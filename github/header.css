@@ -1,0 +1,167 @@
+div{
+    font-family: Inter;
+    font-size: 16px;
+}
+
+a{
+    font-family: Inter;
+}
+.header{
+    margin-top: 35px;
+    height: 50px;
+}
+.left-section{
+    display: flex;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+div svg{
+	fill: #FFF;
+}
+.github-logo{
+    margin-left: 150px;
+    margin-top: -10px;
+}
+.nav-one{
+    margin-left: 20px;
+}
+.tooltip-1{
+    margin-top: 30px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    white-space: nowrap;
+    width: 270px;
+    height: 420px;
+    padding: 30px 10px 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    position: absolute;
+}
+.tooltip-2{
+    margin-top: 30px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    white-space: nowrap;
+    width: 270px;
+    height: 450px;
+    padding: 30px 10px 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    position: absolute;
+}
+.tooltip-3{
+    margin-top: 30px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    white-space: nowrap;
+    width: 270px;
+    height: 150px;
+    padding: 30px 10px 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    position: absolute;
+}
+.nav-one:hover .tooltip-1{
+    opacity: 1;
+}
+.nav-four:hover .tooltip-2{
+    opacity: 1;
+}
+.nav-six:hover .tooltip-3{
+    opacity: 1;
+}
+.nav-two,
+.nav-three,
+.nav-four,
+.nav-five,
+.nav-six{
+    margin-left: 16px;
+    transition: color 0.15s;
+}
+.nav-one:hover{
+    color: rgb(200, 200, 200);
+    opacity: 1;
+}
+.nav-two:hover,
+.nav-three:hover,
+.nav-four:hover,
+.nav-five:hover,
+.nav-six:hover{
+    color: rgb(200, 200, 200);
+}
+.right-section{
+	display: flex;
+    justify-content: flex-end;
+	align-items: center;
+    color: white;
+    margin-right: 130px;
+    margin-top: -45px;
+    cursor: pointer;
+    font-style: 10px;
+}
+.right-section div {
+	margin-right: 15px;
+}
+.sign-up {
+	border: 1px solid #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+}
+.search input {
+	padding: 12px 16px 9px 16px;
+	border-radius: 5px;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 60px;
+    width: 200px;
+    border-color: rgb(145, 145, 145);
+}
+.search input::placeholder {
+	color: #D1D2D5;
+	font-size: 14px;
+}
+.link-gray,
+.link-small{
+    color: rgb(142, 142, 142);
+}
+.link-last{
+    margin-bottom: 60px;
+}
+.link-bold{
+    font-weight: bold;
+    color: black;
+}
+.link-gray:hover,
+.link-bold:hover{
+    color: blue;
+}
+.link-small{
+    margin-top: 30px;
+    font-size: 11px;
+}
+.tooltip-3 .link-bold-educ{
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+}
